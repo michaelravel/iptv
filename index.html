@@ -437,9 +437,9 @@
                 return;
             }
 
-            // Check file size (10MB max)
-            if (file.size > 10 * 1024 * 1024) {
-                alert("O arquivo é muito grande. Tamanho máximo: 10MB");
+            // Check file size (100MB max)
+            if (file.size > 100 * 1024 * 1024) {
+                alert("O arquivo é muito grande. Tamanho máximo: 100MB");
                 return;
             }
 
